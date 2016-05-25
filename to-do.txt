@@ -1,0 +1,36 @@
+Things to look into/try:
+
+webhooks -> related to API use, not entirely sure what they are or how to use
+	these yet
+
+Things to try
+---------------
+
+
+I've been having a blast using Numpy, Sklearn and TensorFlow to analyze music. I have an algorithm for classifying music by genre. And another to predict if I will like new music.
+Basically I read the first minute of every song. Convert that to a wav file. Read the wav file into numpy. I then use Fourier transforms on these arrays. Use k best selection to determine the best frequencies to use for classifying the music and reduce the data down to 100 floats. Those 100 floats are then feed into a TensorFlow model and trained to predict genres.
+
+---------------
+Databases:
+	MongoDB
+	MySQL
+		MariaDB -> fork of MySQL?
+	Postgres -> 
+	Cassandra -> distributed, scalable
+
+
+---------------
+Testing:
+
+	pytest (lib?)
+	Code coverage
+	Continuous integration (Travis?  Jarvis?)
+
+
+----------------
+Web servers:
+
+	Apache
+	Nginx
+	hosting tests and test code/sites
+----------------
