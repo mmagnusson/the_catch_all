@@ -1,0 +1,17 @@
+Lecture 1 (intro, threat models):
+
+-using GDB for debugging C code -> on a linux machine
+	breakpoints, memory addresses/dumps
+	Buffer overflow example, right?
+	Registers
+	Assembler?  Yes, "Dump of Assembler code for function X"
+	Disassembly
+
+	Inspecting the stack.  C code.  Low level.
+	*Test gdb with a simple Hello World
+
+	Segmentation fault, look up examples and def
+
+	How to use gcc/gdb on a mac?
+
+
