@@ -29,3 +29,6 @@ if __name__ == '__main__':
     user_number = values.number
     calculation_result = calculation(user_number)
     print(calculation_result)
+
+
+#input validation handled by argparse, not done within the script itself
