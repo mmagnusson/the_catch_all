@@ -1,0 +1,8 @@
+Code samples taken from this article about improving scripting:
+5-24-2016
+http://blog.manugarri.com/how-to-make-your-script-2x-better/
+
+Very handy, started with a script and improves it by adding/modularizing the sections of it.  Ran everything through IDLE and Py3.
+
+running the 2 and 3 scripts needs this syntax in the terminal:
+'python3 [script_name] --number [number]'
