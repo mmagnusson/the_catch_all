@@ -3,4 +3,4 @@ def test_var_args(*argv):
     for arg in argv:
         print("another arg through *argv:", arg)
 
-test_var_args('python','turtle', 'dicks', 'farts')
+test_var_args('python','turtle', 'tigers', 'dogs')
