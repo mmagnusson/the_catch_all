@@ -1,4 +1,4 @@
-def my_dick():
+def my_test():
     try:
         8.4567 / 0
     except ZeroDivisionError:
@@ -6,7 +6,7 @@ def my_dick():
 
 if __name__ == "__main__":
     import timeit
-    setup = "from __main__ import my_dick"
-    print(timeit.timeit("my_dick()", setup=setup))
+    setup = "from __main__ import my_test"
+    print(timeit.timeit("my_test()", setup=setup))
 
 
